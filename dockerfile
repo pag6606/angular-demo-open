@@ -1,4 +1,4 @@
 FROM nginx:alpine
 WORKDIR /usr/share/nginx/html/
-COPY dist/ $WORKDIR
+COPY dist/demo-app . 
 EXPOSE 80
